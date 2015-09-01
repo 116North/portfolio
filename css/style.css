@@ -1,0 +1,128 @@
+body {
+  /*Typography Declarations*/
+  
+  color:#222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.masthead {
+  padding: 6em 0;
+  background-image: URL('https://download.unsplash.com/photo-1424746219973-8fe3bd07d8e3');
+  background-size: cover;
+  background-repeat: norepeat;
+  background-attachment: fixed;
+  background-position: bottom center;
+  background-position: relative;
+  height: 10em;
+  border-top: solid 1em #3a3a3a;
+  margin-bottom: 3.5em;
+  text-align: center;
+}
+
+.masthead-intro {
+  Font-family: "Gnetium Book Basic", "Georgia", Serif;
+  Font-size: 2em;
+  margin-bottom: 0.1em;
+  margin-top: 1em;
+  overflow: auto;
+}
+
+.masthead-heading {
+  Font-family: "Open Sans", "Helvetica", sans-serif;
+  font-size: 6em;
+  font-weight: Bold;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  margin-top: 0.1em;
+}
+.top-navigation{
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  overflow: auto;
+}
+.content {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+.navigation-links{
+  float: right;
+  color: white;
+  font-size: 1.5rem
+  
+}
+.navigation-links ul{
+  display: inline-block;
+  list-style: none;
+}
+.navigation-links li{
+  display: inline-block;
+  margin-left: 1.563rem;
+}
+
+h2 {
+  font-family: "Gentium Book Basic", "Georgia", serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #6D717C;
+}
+
+.content-footer {
+  background-size: cover;
+  background-repeat: norepeat;
+  background-position: relative;
+  background-color: #3a3a3a;
+  padding: 4em 0;
+  height: 10em;
+  margin-top: 5em;
+  text-align: center;
+}
+
+.content-footer > p {
+  color: white;
+  font-weight: 300;
+}
+.social{
+  padding: 1em 0em;
+  list-style-type: none;
+}
+
+.social > li {
+  display: inline-block;
+  padding: 0 20px;
+
+}
+
+a.footer:link {
+  color: #FCFCFC;
+  font-weight: 300;
+}
+
+a.footer:visited {
+  color: #FCFC45;
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 500px) {
+  .masthead {
+    padding: 3em 0;
+  }
+  .masthead-heading {
+    font-size: 3em;
+  }
+  .content-footer{
+    padding: 3em 0;
+  }
+  .footer-copy{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .social > li{
+    padding: 0 4px;
+  }
+}
