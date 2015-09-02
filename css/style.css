@@ -37,7 +37,7 @@ body {
   margin-top: 0.1em;
 }
 .top-navigation{
-  position: fixed;
+  position: absolute;
   width: 100%;
   z-index: 9999;
   overflow: auto;
@@ -51,7 +51,7 @@ body {
   letter-spacing: 0.05em;
 }
 .navigation-links{
-  float: right;
+  float: center;
   color: white;
   font-size: 1.5rem
   
