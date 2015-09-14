@@ -514,6 +514,42 @@ h1{
   padding-top: 2rem;
 }
 
+.content-footer {
+  background-size: cover;
+  background-repeat: norepeat;
+  background-position: relative;
+  background-color: #3a3a3a;
+  padding: 4em 0;
+  height: 10em;
+  margin-top: 5em;
+  text-align: center;
+}
+
+.content-footer {
+  color: white;
+  font-weight: 300;
+}
+.social{
+  padding: 1em 0em;
+  list-style-type: none;
+}
+
+.social > li {
+  display: inline-block;
+  padding: 0 20px;
+
+}
+
+a.footer:link {
+  color: #CD7C00;
+  font-weight: 300;
+}
+
+a.footer:visited {
+  color: #15CC3C;
+  font-weight: 300;
+}
+
 .grid{
   width: 100%
 }
@@ -522,16 +558,10 @@ h1{
   width: 66.66%
 }
 
-.col-2-3 .featured-image{
-  width: inherit;
-}
 .col-1-3{
   width: 33.33%
 }
 
-.col-1-3 .featured-image{
-  width: 100px;
-}
 .project-1 .col-1-3 p{
   margin-left: 20px;
 }
@@ -577,42 +607,8 @@ h1{
 .project-2  p{
   text-align: left;
 }
-
-
-.content-footer {
-  background-size: cover;
-  background-repeat: norepeat;
-  background-position: relative;
-  background-color: #3a3a3a;
-  padding: 4em 0;
-  height: 10em;
-  margin-top: 5em;
-  text-align: center;
-}
-
-.content-footer {
-  color: white;
-  font-weight: 300;
-}
-.social{
-  padding: 1em 0em;
-  list-style-type: none;
-}
-
-.social > li {
-  display: inline-block;
-  padding: 0 20px;
-
-}
-
-a.footer:link {
-  color: #CD7C00;
-  font-weight: 300;
-}
-
-a.footer:visited {
-  color: #15CC3C;
-  font-weight: 300;
+.featured-image{
+  width: 100%;
 }
 
 @media only screen and (max-width: 46rem){
@@ -640,4 +636,3 @@ a.footer:visited {
     padding: 0 4px;
   }
 }
-
