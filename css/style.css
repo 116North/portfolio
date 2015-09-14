@@ -530,7 +530,7 @@ h1{
 }
 
 .col-1-3 .featured-image{
-  width: inherit;
+  width: 100px;
 }
 .project-1 .col-1-3 p{
   margin-left: 20px;
