@@ -607,9 +607,7 @@ a.footer:visited {
 .project-2  p{
   text-align: left;
 }
-.featured-image{
-  width: 100%;
-}
+
 
 @media only screen and (max-width: 46rem){
   .content{
@@ -625,7 +623,6 @@ a.footer:visited {
     font-size: 3em;
   }
   
-  }
   .content-footer{
     padding: 3em 0;
   }
