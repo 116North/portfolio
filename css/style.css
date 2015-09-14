@@ -514,42 +514,6 @@ h1{
   padding-top: 2rem;
 }
 
-.content-footer {
-  background-size: cover;
-  background-repeat: norepeat;
-  background-position: relative;
-  background-color: #3a3a3a;
-  padding: 4em 0;
-  height: 10em;
-  margin-top: 5em;
-  text-align: center;
-}
-
-.content-footer {
-  color: white;
-  font-weight: 300;
-}
-.social{
-  padding: 1em 0em;
-  list-style-type: none;
-}
-
-.social > li {
-  display: inline-block;
-  padding: 0 20px;
-
-}
-
-a.footer:link {
-  color: #CD7C00;
-  font-weight: 300;
-}
-
-a.footer:visited {
-  color: #15CC3C;
-  font-weight: 300;
-}
-
 .grid{
   width: 100%
 }
@@ -607,7 +571,45 @@ a.footer:visited {
 .project-2  p{
   text-align: left;
 }
+.featured-image{
+  width: inherit;
+}
 
+.content-footer {
+  background-size: cover;
+  background-repeat: norepeat;
+  background-position: relative;
+  background-color: #3a3a3a;
+  padding: 4em 0;
+  height: 10em;
+  margin-top: 5em;
+  text-align: center;
+}
+
+.content-footer {
+  color: white;
+  font-weight: 300;
+}
+.social{
+  padding: 1em 0em;
+  list-style-type: none;
+}
+
+.social > li {
+  display: inline-block;
+  padding: 0 20px;
+
+}
+
+a.footer:link {
+  color: #CD7C00;
+  font-weight: 300;
+}
+
+a.footer:visited {
+  color: #15CC3C;
+  font-weight: 300;
+}
 
 @media only screen and (max-width: 46rem){
   .content{
@@ -634,3 +636,4 @@ a.footer:visited {
     padding: 0 4px;
   }
 }
+
